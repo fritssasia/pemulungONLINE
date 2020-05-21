@@ -1,0 +1,240 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Poppins;
+  background-color: rgb(14, 14, 14);
+}
+
+/* Navbar */
+.header {
+  transition: all 0.2s ease-in-out;
+}
+
+.header.active {
+  background-color: #0E0E0E;
+}
+
+.nav-link {
+  margin-right: 5px;
+}
+
+.navbar-brand span {
+  font-weight: bold;
+}
+
+.navbar-brand, .nav-list {
+  color: white !important;
+}
+
+.login-btn {
+  border-radius: 30px;
+  width: 70px;
+}
+
+.signup-btn {
+  border-radius: 30px;
+  width: 70px;
+}
+
+/* End navbar */
+/* Jumbotron */
+.jumbotron {
+  background-image: url(../img/bg-img.jpg);
+  background-size: cover;
+  height: 660px;
+  text-align: center;
+  color: white;
+}
+
+.display-4 {
+  margin-top: 160px;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+  opacity: 0.8;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.display-4 span {
+  font-weight: bold;
+}
+
+.lead {
+  letter-spacing: 2px;
+  opacity: 0.9;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+.btn-getstart {
+  background-color: rgb(246, 50, 50);
+  width: 150px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+/* End jumbotron */
+/* About */
+.about {
+  padding-top: 60px;
+  color: whitesmoke;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about hr {
+  margin-bottom: 35px;
+}
+
+.img-about {
+  border-radius: 20px;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+/* End about */
+/* Team */
+.team {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.team h2 {
+  color: whitesmoke;
+}
+
+.card-team {
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: rgb(29, 29, 29);
+}
+
+.team-profile-pict {
+  border-radius: 10px;
+}
+
+.card-title, .card-text {
+  color: whitesmoke;
+}
+
+.team-title {
+  color: darkgrey;
+}
+
+.team i {
+  color: rgb(246, 50, 50);
+  padding-right: 10px;
+}
+
+.team i:hover {
+  color: lightgrey;
+}
+
+/* End team */
+/* Blog */
+.blog {
+  margin-top: -20px;
+  padding-top: 50px;
+}
+
+.blog h2 {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 70px;
+}
+
+.nav-blog {
+  color: whitesmoke;
+}
+
+.nav-blog:hover {
+  color: whitesmoke;
+}
+
+.card-blog {
+  background-color: rgb(38, 38, 38);
+}
+
+.article-title {
+  font-size: 20px;
+}
+
+.article-title:hover {
+  text-decoration: none;
+  color: rgb(246, 50, 50);
+}
+
+.article-text {
+  font-size: 14px;
+}
+
+.pagination>li>a {
+  background-color: rgb(71, 71, 71);
+  border-color: rgb(71, 71, 71);
+  color: whitesmoke;
+}
+
+.pagination>li>a:hover {
+  color: black;
+}
+
+.pagination>li.active>a.page-link {
+  background-color: rgb(246, 50, 50);
+  border-color: rgb(246, 50, 50);
+}
+
+/* End blog */
+/* Contributor */
+.contributor h2 {
+  color: whitesmoke;
+  margin-top: 50px;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.contributor i {
+  color: whitesmoke;
+}
+
+.contributor i:hover {
+  color: rgb(246, 50, 50);
+}
+
+.table {
+  background-color: rgb(55, 55, 55);
+}
+
+/* End contributor */
+/* Footer */
+.footer {
+  margin-top: 30px;
+  background-color: rgb(29, 29, 29);
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+.heart {
+  color: rgb(246, 50, 50);
+}
+
+.footer p {
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+.footer a {
+  margin-right: 10px;
+  color: whitesmoke;
+}
+
+.footer a:hover {
+  color: rgb(246, 50, 50);
+}
+
+/* End footer */

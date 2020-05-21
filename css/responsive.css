@@ -1,0 +1,269 @@
+/* Desktop */
+@media (min-width: 992px) {
+  .nav-list:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(246, 50, 50);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .display-4 {
+    font-size: 57px;
+    margin-top: 205px;
+  }
+
+  .lead {
+    font-size: 18px;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+  }
+
+  .login-btn {
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 11px;
+    border-radius: 30px;
+    width: 70px;
+  }
+
+  .signup-btn {
+    margin-top: 3px;
+    margin-left: 5px;
+    border-radius: 30px;
+    width: 70px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+  }
+
+  .about hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 45px;
+  }
+
+  .about p {
+    line-height: 30px;
+  }
+
+  .team hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 90px;
+  }
+
+  .btn-meetteam {
+    margin-top: 15px;
+  }
+
+  .blog hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 35px;
+  }
+
+  .blog h3 {
+    font-size: 25px;
+  }
+
+  .card-blog {
+    margin-top: 30px;
+  }
+
+  .pagination {
+    margin-top: 35px;
+  }
+
+  .contributor {
+    margin-top: 40px;
+  }
+
+  .contributor hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 65px;
+  }
+
+  .contributor i {
+    padding-right: 10px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+@media all and (max-width: 1000px) {
+  .navbar {
+    background-color: rgb(14, 14, 14);
+  }
+
+  .login-btn {
+    margin-bottom: 7px;
+  }
+
+  .about hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 45px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .about p {
+    margin-top: 10px;
+  }
+
+  .team hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 55px;
+  }
+
+  .btn-meetteam {
+    margin-top: 20px;
+  }
+
+  .blog hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 35px;
+  }
+
+  .card-blog {
+    margin-top: 30px;
+  }
+
+  .pagination {
+    margin-top: 30px;
+  }
+
+  .contributor hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 65px;
+  }
+
+  .contributor i {
+    padding-right: 10px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  .footer a {
+    font-size: 20px;
+  }
+}
+
+/* Smartphone */
+@media all and (max-width: 670px) {
+  .navbar-toggler {
+    font-size: 17px;
+  }
+
+  .navbar-brand {
+    font-size: 15px;
+  }
+
+  .navbar {
+    background-color: rgb(14, 14, 14);
+  }
+
+  .display-4 {
+    font-size: 47px;
+  }
+
+  .lead {
+    font-size: 13px;
+  }
+
+  .login-btn {
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+
+  .about h2 {
+    font-size: 25px;
+  }
+
+  .about hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 35px;
+  }
+
+  .about p {
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .btn-meetteam {
+    margin-top: 5px;
+  }
+
+  .team h2 {
+    font-size: 25px;
+  }
+
+  .team hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 55px;
+  }
+
+  .team-text {
+    font-size: 12px;
+  }
+
+  .blog h2 {
+    font-size: 25px;
+  }
+
+  .blog hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 25px;
+  }
+
+  .blog-menu {
+    font-size: 13px;
+  }
+
+  .article-text {
+    font-size: 11px;
+  }
+
+  .update-time {
+    font-size: 10px;
+  }
+
+  .pagination {
+    margin-top: 5px;
+  }
+
+  .contributor h2 {
+    font-size: 25px;
+  }
+
+  .contributor hr {
+    border-bottom: 2px solid rgb(246, 50, 50);
+    width: 50px;
+  }
+
+  .contributor {
+    padding-right: 7px;
+  }
+
+  .table-text {
+    font-size: 13px;
+  }
+
+  .footer p {
+    font-size: 10px;
+  }
+
+  .footer a {
+    font-size: 15px;
+  }
+}
